@@ -1,21 +1,25 @@
 <template>
   <div id="app">
-    <div class="container-fluid">
-      <!-- <news-api></news-api> -->
+    
+      <top-banner></top-banner>
+      <div class="container-fluid">
+        <!-- <news-api></news-api> -->
+      </div>
       <div class="row justify-content-center mb-5">
         <div class="col mt-5" v-for="member in team" :key="member">
           <team-card :member="member"></team-card>          
         </div>       
-      </div>
-       <page-footer></page-footer>
+      </div>  
+      <page-footer></page-footer>     
     </div>
-  </div>
+    
 </template>
 
 <script>
 import PageFooter from './components/PageFooter.vue';
 // import NewsApi from "./components/NewsApi.vue";
 import TeamCard from './components/TeamCard.vue';
+import TopBanner from './components/TopBanner.vue';
 
 
 export default {
@@ -23,7 +27,8 @@ export default {
   components: {
     // NewsApi,
     TeamCard,
-    PageFooter
+    PageFooter,
+    TopBanner
   },
   data() {
     return { 
