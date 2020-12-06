@@ -3,7 +3,7 @@
     
       <top-banner></top-banner>
       <div class="container-fluid">
-        <!-- <news-api></news-api> -->
+        <news-api></news-api>
       </div>
       <div class="row justify-content-center mb-5">
         <div class="col mt-5" v-for="member in team" :key="member">
@@ -17,7 +17,7 @@
 
 <script>
 import PageFooter from './components/PageFooter.vue';
-// import NewsApi from "./components/NewsApi.vue";
+import NewsApi from "./components/NewsApi.vue";
 import TeamCard from './components/TeamCard.vue';
 import TopBanner from './components/TopBanner.vue';
 
@@ -25,7 +25,7 @@ import TopBanner from './components/TopBanner.vue';
 export default {
   name: "App",
   components: {
-    // NewsApi,
+    NewsApi,
     TeamCard,
     PageFooter,
     TopBanner
