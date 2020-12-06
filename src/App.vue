@@ -1,26 +1,29 @@
 <template>
   <div id="app">
     <div class="container-fluid">
-      <news-api></news-api>
+      <!-- <news-api></news-api> -->
       <div class="row justify-content-center mb-5">
         <div class="col mt-5" v-for="member in team" :key="member">
-          <team-card :member="member"></team-card>
-        </div>
+          <team-card :member="member"></team-card>          
+        </div>       
       </div>
+       <page-footer></page-footer>
     </div>
   </div>
 </template>
 
 <script>
-import NewsApi from "./components/NewsApi.vue";
+import PageFooter from './components/PageFooter.vue';
+// import NewsApi from "./components/NewsApi.vue";
 import TeamCard from './components/TeamCard.vue';
 
 
 export default {
   name: "App",
   components: {
-    NewsApi,
-    TeamCard
+    // NewsApi,
+    TeamCard,
+    PageFooter
   },
   data() {
     return { 
