@@ -23,7 +23,7 @@
             <div class="carousel-item">
                 <img src="https://media.utp.edu.co/paginaprincipal/imagenes/banner-nueva-marca-UTP-551A.jpg" alt="Imagen Grupo" width=100%, height=400px>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Trabajo en equipo</h5>
+                    <h5>Universidad Tecnológica de Pereira</h5>
                 </div>
             </div>
         </div>

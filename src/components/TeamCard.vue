@@ -12,7 +12,7 @@
         </div>
         <div class="card-footer">
           <!-- <small class="text-muted">Last updated 3 mins ago</small> -->
-          <p> Codigo: {{member.codigo}} </p>
+          <p> Código: {{member.codigo}} </p>
         </div>
       </div>
     </div>
